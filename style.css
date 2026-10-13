@@ -1,0 +1,146 @@
+/* General styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+
+/* Navigation */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections */
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+}
+
+
+/* Profile image */
+
+#profileContainer {
+    text-align: center;
+}
+
+#profileImage {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 5px solid #333;
+}
+
+#profileImage:hover {
+    opacity: 0.8;
+}
+
+
+/* Video */
+
+#profileVideo {
+    display: none;
+    margin: 20px auto;
+}
+
+
+/* Lists */
+
+li {
+    margin: 10px 0;
+}
+
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        margin: 15px;
+    }
+
+    #profileImage {
+        width: 140px;
+        height: 140px;
+    }
+
+    #profileVideo {
+        width: 100%;
+    }
+
+}

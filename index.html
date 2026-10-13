@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h1>My Portfolio</h1>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#details">Basic Details</a>
+            <a href="#academic">Academic Details</a>
+            <a href="#internships">Internships</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- About Me -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <!-- Click the image to show video -->
+        <div id="profileContainer">
+
+            <img
+                id="profileImage"
+                src="photo.png"
+                alt="My Profile Photo"
+                onclick="showVideo()">
+
+            <video
+                id="profileVideo"
+                controls
+                width="400">
+
+                <source src="intro.mp4" type="video/mp4">
+
+                Your browser does not support video.
+            </video>
+
+        </div>
+
+        <h3>Halls K Lalan</h3>
+
+        <p>
+            I am a B.Tech Computer Science student interested in
+            software development, web programming and technology.
+        </p>
+
+    </section>
+
+
+    <!-- Basic Details -->
+    <section id="details">
+
+        <h2>Basic Details</h2>
+
+        <ul>
+            <li><strong>Name:</strong> Halls K Lalan</li>
+            <li><strong>Course:</strong> B.Tech Computer Science</li>
+            <li><strong>Semester:</strong> S7</li>
+            <li><strong>College:</strong> Saintgits College of Engineering</li>
+            <li><strong>Location:</strong> Kerala, India</li>
+        </ul>
+
+    </section>
+
+
+    <!-- Academic Details -->
+    <section id="academic">
+
+        <h2>Academic Details</h2>
+
+        <table>
+
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+
+            <tr>
+                <td>B.Tech Computer Science</td>
+                <td>Saintgits College of Engineering</td>
+                <td>2023 - Present</td>
+            </tr>
+
+            <tr>
+                <td>Higher Secondary</td>
+                <td>School</td>
+                <td>2023</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- Internships -->
+    <section id="internships">
+
+        <h2>Internships</h2>
+
+        <ul>
+            <li>Web Development Internship</li>
+            <li>Software Development Internship</li>
+        </ul>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <ul>
+            <li>
+                <strong>GramaSetu</strong> -
+                Panchayat Complaint Management System
+            </li>
+
+            <li>
+                <strong>Online Voting System</strong> -
+                Online voting management application
+            </li>
+
+            <li>
+                <strong>Angular Website</strong> -
+                Web-based application developed using Angular
+            </li>
+        </ul>
+
+    </section>
+
+
+    <!-- Certifications -->
+    <section id="certifications">
+
+        <h2>Certifications</h2>
+
+        <ul>
+            <li>Web Development Certification</li>
+            <li>Python Programming Certification</li>
+            <li>JavaScript Certification</li>
+        </ul>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>
+            <strong>Email:</strong>
+            hallslalan7@gmail.com
+        </p>
+
+        <p>
+            <strong>Phone:</strong>
+            +91 65400 25211
+        </p>
+
+        <p>
+            <strong>GitHub:</strong>
+            https://github.com/HallsKL
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Halls K Lalan | Username: halls_lalan
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
